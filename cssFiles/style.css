@@ -1,0 +1,194 @@
+body {
+    background-color: #F6CF95;
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+    margin: 0 10%;
+    padding: 0;
+
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10%;
+    height: 10vh;
+}
+
+
+.button {
+    font-weight: 500px;
+    font-size: 18px;
+    color: #121212;
+    text-decoration: none;
+    background-color: #FFF3E0;
+    border-radius: 8px;
+    border-color: #ffdda7;
+    border: 3px;
+    padding: 15px 30px;
+}
+
+.button:hover {
+    font-weight: 500px;
+    font-size: 18px;
+    color: #121212;
+    text-decoration: none;
+    background-color: #FFF6EA;
+    border-radius: 8px;
+    border-color: #FFEED2;
+    border: 3px;
+    padding: 15px 30px;
+}
+
+.button:active {
+    font-weight: 500px;
+    font-size: 18px;
+    color: #121212;
+    text-decoration: none;
+    background-color: #FFEBCD;
+    border-radius: 8px;
+    border-color: #FFDA9F;
+    border: 3px;
+    padding: 15px 30px;
+}
+
+
+.button2 {
+    font-size: 18px;
+    color: #121212;
+    background-color: #FFF3E0;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 30px;
+    padding: 15px 25px;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+
+.button2:hover {
+    font-size: 18px;
+    color: #121212;
+    background-color: #FFF6EA;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 30px;
+    padding: 15px 25px;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+
+.button2:active {
+    font-size: 18px;
+    color: #121212;
+    background-color: #FFEBCD;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 30px;
+    padding: 15px 25px;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+.bodyBox {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 90vh;
+    margin: 0% 10%;
+    flex-direction: column;
+}
+
+.bodyBox2 {
+    margin: 0% 10%;
+    height: 60vh;
+}
+
+.mainText {
+    font-size: 80px;
+}
+
+.author {
+    font-size: 40px;
+    font-style: italic;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.title {
+    font-size: 50px;
+}
+
+#field {
+    height: 80%;
+    width: 100%;
+    border-radius: 25px;
+    border-color: #ecc385;
+    background-color: #f6cf95;
+    font-size: 45px;
+    font-family: "Inter", sans-serif;
+    padding: 25px 30px;
+    box-sizing: border-box;
+    border-width: 3px;
+}
+
+
+#field:focus {
+    width: 100%;
+    height: 80%;
+    border-radius: 25px;
+    border-color: #ecc385;
+    background-color: #f6cf95;
+    font-size: 45px;
+    font-family: "Inter", sans-serif;
+    padding: 25px 30px;
+    outline: none;
+    border-width: 3px;
+}
+
+#field::placeholder {
+    color: #d3b588;
+}
+
+#nameField {
+    width: 100%;
+    height: 15%;
+    border-radius: 25px;
+    border: 3px solid #ecc385;
+    background-color: transparent;
+    font-size: 45px;
+    font-family: "Inter", sans-serif;
+    padding: 25px 30px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+#nameField:focus {
+    width: 100%;
+    height: 15%;
+    border-radius: 25px;
+    border: 3px solid #ecc385;
+    background-color: transparent;
+    font-size: 45px;
+    font-family: "Inter", sans-serif;
+    padding: 25px 30px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+#nameField::placeholder {
+    color: #d3b588;
+}
+
+.logo {
+    text-decoration: none;
+    color: #121212;
+    user-select: none;
+}
+
